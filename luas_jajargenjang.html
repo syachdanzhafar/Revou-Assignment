@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator Luas Jajargenjang</title>
+  </head>
+
+  <body>
+    <header>
+      <h2>Luas Jajargenjang</h2>
+    </header>
+
+    <img
+      src="img/jajargenjang.jpg"
+      class="rumusimg"
+      width="500"
+      height="600"
+    /><br />
+
+    <h2>Rumus Luas Jajargenjang yaitu :</h2>
+    <p class="rumus"><b> L = A * T </b></p>
+    <p>Dimana :</p>
+    <p style="padding: 0px; margin: 0px">A = Alas</p>
+    <p style="padding: 0px; margin: 0px">B = Tinggi</p>
+    <br />
+    <hr />
+
+    <h2 style="text-align: center">Hitung Luas Jajargenjang</h2>
+    <form>
+      <label for="fname">A:</label>
+      <input type="text" id="a" placeholder="Sisi Alas" /><br />
+      <label for="lname">T:</label>
+      <input
+        type="text"
+        id="t"
+        placeholder="Sisi Miring"
+        style="margin-left: 2px"
+      /><br />
+      <p id="hasil2" class="result"></p>
+      <input
+        type="button"
+        class="button"
+        value="Hitung"
+        onClick="luasjargen();"
+      />
+      <button class="clear">Reset</button>
+      <button class="luas">
+        <a href="keliling_jajargenjang.html">Keliling</a>
+      </button>
+    </form>
+
+    <div class="footer">
+      <p>Created by Syachdan Zhafar</p>
+    </div>
+  </body>
+</html>
+
+<script src="script.js"></script>
